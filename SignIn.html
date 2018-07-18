@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>sign_up_page</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+</head>
+<body>
+    <div class="layout">
+        <div class="header">Header</div>
+        <div class="body">
+            <div class="container">
+                <div class="sign_in_up">
+                    <div><img src="img/join_ic_img.png" width="70" height="61" /></div>
+                    <div>회원가입</div>
+                    <form name="SignUp" method="post">
+                        <!----form 에 action="나중에 submit 눌렀을때 넘어가는 페이지" 넣기---->
+                        <div><input typeof="text" placeholder="이메일" name="userID" maxlength="30" /></div>
+                        <div><input typeof="text" placeholder="닉네임" name="nickname" maxlength="30" /></div>
+                        <div><input typeof="text" placeholder="비밀번호" name="password" maxlength="30" /></div>
+                        <div><input typeof="text" placeholder="비밀번호 확인" name="password" maxlength="30" /></div>
+                        <div style="font-size:12px;">
+                            <input type="checkbox" name="agree" value="service" />
+                            놀다오리 서비스 이용약관 동의
+                            <input type="button" value="전문보기" />
+                        </div>
+                        <div style="font-size:12px;">
+                            <input type="checkbox" name="agree" value="information" />
+                            개인정보 수집 이용 동의 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="button" value="전문보기" />
+                        </div>
+                    </form>
+                    <div><img src="img/yl_joinov_btn.png" width="185" height="25" /></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"> Footer </div>
+    </div><!--end-->
+
+</body>
+</html>\
